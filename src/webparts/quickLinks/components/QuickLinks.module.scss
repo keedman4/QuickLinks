@@ -1,0 +1,79 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.grid_container {
+  display: grid;
+  grid-template-areas:'header header header'
+  'grid_item grid_item grid_item ';
+  //grid-template-columns: auto auto auto;
+  width: 100%;
+  overflow: scroll;
+  padding: 10px;
+  height: 300px;
+  color: darkblue;
+  margin-bottom: 1rem;
+  grid-column-gap: 5px;
+  grid-column-gap: 15px;
+} 
+
+.grid_item {
+  border: 1px solid rgba(255, 255, 255, 1);
+  text-align: center;
+font-size: 13px;
+background: darkblue;
+  width: 100%;
+  padding: 1rem;
+  padding-top: 2rem;
+
+text-align: center;
+align-items: center;
+    text-decoration: none;
+         color: white;
+   text-transform: uppercase;
+}
+
+.head{
+  font-size: 20px;
+  grid-area: header;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  // z-index: 1000;
+  background: fixed;
+  width: 100%;
+  color: rgb(0, 0, 91);
+  font-weight: 600;
+  background: none;
+}
+.grid_item a{
+  text-decoration: none;
+         color: white;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+
+//   .links{
+//     width: 100%;
+//     color: darkblue;
+//     height: 400;
+//     display: block;
+//     overflow: scroll;
+//     margin-bottom: 1rem;
+// }
+// .links a{
+//     width: 30%;
+//    height: 7rem;
+//     background: darkblue;
+//     float: left;
+//     margin:1.5%;
+//     cursor: pointer;
+//     font-size: 13px;
+//     padding: 1rem;
+//     padding-top: 2rem;
+//     text-align: center;
+//     align-items: center;
+//     text-decoration: none;
+//     color: white;
+//     text-transform: uppercase;
+//     text-decoration: none;
+// }
